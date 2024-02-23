@@ -1,0 +1,30 @@
+/* element selector  */
+/* group selector */
+h1, 
+#p4 { 
+    color: red;
+    background-color: blanchedalmond;
+}
+/* class uses . */
+.par {
+    background-color: gray;
+}
+/* id uses # */
+#p1{
+    color: aliceblue;
+}
+#p2{
+    color: blueviolet;
+}
+#p3{
+    color: chocolate;
+}
+
+/* universal selector */
+* {
+    color: blue;
+}
+/* pseudo Class Selector, first input is the id */
+#hover:hover {
+    background-color: darkgray;
+}

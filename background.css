@@ -1,0 +1,19 @@
+.colors{
+    color: #80b680;
+    background-color: rgb(255,0,0);
+}
+
+/* background images. */
+.background {   
+    background-image: url("background.jpg");
+    background-position: center top;
+    /* background-repeat: no-repeat; */
+}
+/* opacity and transparency */
+.opacity{
+    background-color: rgba(255, 0, 0, .5);
+}
+/* image sizing */
+.img1 {
+    width: 300px;
+}
