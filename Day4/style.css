@@ -87,3 +87,39 @@
         top: 20px;
         left: 300px;
     }
+/* floats */
+
+    .float-left {
+        width: 200px;
+        height: 200px;  
+        background-color: lightblue;
+        float:left;
+    }
+    .float-right {
+        width: 200px;
+        height: 200px;  
+        background-color: lightgreen;
+        float:right;
+    }
+
+    .clear-floats {
+        background-color: rgb(182, 182, 31);
+        padding: 10px;
+        clear: both;
+
+    }
+
+    /* centering elements */
+
+    .box-center-horizontal {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box-center-vertical{
+        
+        display : flex;
+        justify-content: center;
+        align-items: center;
+    }
