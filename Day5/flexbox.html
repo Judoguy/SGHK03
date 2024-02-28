@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        .flex-item {
+                background-color: #b82a2a;
+                width: 200px;
+                padding: 10px;
+                margin: 5px;
+            }
+        .main-axis {
+				position: absolute;
+				top: 50%;
+				height: 3px;
+				width: 2160px;
+				background-color: red;
+			}
+		.cross-axis {
+				position: absolute;
+				right: 50%;
+				height: 1080px;
+				width: 3px;
+				background-color: blue;
+			}
+        .flex-container{
+            border: 2px;
+            color: black;
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            /* flex-start, flex-end, center, baseline */
+            justify-content: flex-end;
+            /* flext-start, flex-end, center, apce-around, space-betweenx, space-evenly */
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        .flex-item{
+            background-color: #9bbe4f;
+            width: 200px;
+            padding: 10px;
+            margin: 5px;
+        }
+        /*.flex1 {
+            flex-grow: 1;
+
+        }
+        .flex1 {
+            flex-shrink: 5;
+        }
+        .flex1 {
+            flex-basis: 300px;
+        }
+        */
+        .flex1 {
+            /* flex: [flex-grow], [flex-shrink] [flex-basis] */
+            flex: 1 5 300px
+        }
+
+        .flex3 {
+
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item flex1">Item 1</div>
+        <div class="flex-item flex2">Item 2</div>
+        <div class="flex-item flex3">Item 3</div>
+        <div class="flex-item flex1">Item 1</div>
+        <div class="flex-item flex2">Item 2</div>
+        <div class="flex-item flex3">Item 3</div>
+        <div class="flex-item flex1">Item 1</div>
+        <div class="flex-item flex2">Item 2</div>
+        <div class="flex-item flex3">Item 3</div>
+        <div class="axis main-axis"></div>
+        <div class="axis cross-axis"></div>
+    </div>
+</body>
+</html>
