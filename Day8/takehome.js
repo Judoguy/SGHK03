@@ -19,7 +19,7 @@ console.log(names[1]);
 let arr1 = [100,200,300];
 let arr2 = [400,500,600];
 
-let new_array = [arr1 + arr2];
+const new_array = [...arr1, ...arr2];
 console.log(new_array);
 
 function rectArea(length= 5,width=10){
