@@ -39,8 +39,10 @@ button.addEventListener('click', addTaskItem)
 
 function addTaskItem(){
     const newTaskItem = document.createElement('li');
-    newTaskItem.textContent = taskInput.value;
+    // newTaskItem.textContent = taskInput.value;
     console.log(taskInput.value)
-    
-    //document.getElementById("tasklist").appendChild(newTaskItem)
 }
+
+const container = document.getElementsByClassName('container').appendChild(newTaskItem);
+const newTaskListItem = document.createElement("li");
+newTaskListItem.textContent = "taskInput";

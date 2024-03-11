@@ -49,13 +49,23 @@ h1 {
 
 <body>
 		<h1>Task Manager</h1>
+		<div>
+		<label for="task">Please enter a Task</label><br>
+		</div>
 		<div class="container">
 			<form id="taskForm">
 				<input type="text" id="taskInput" placeholder="Add a task..." />
 				<button type="submit" id="btn">Add Task</button>
 			</form>
-			<ul id="taskList"></ul>
+				<span for="Add a Task" id="taskError" style="color: red;"></span>	
+					<ul id="taskList">Tasks to be Completed:
+						<li class="container">Task 1</li>
+					</ul>	
+					
 		</div>
+
+
+
 		<script src="exercise.js"></script>
 	</body>
 </html>
