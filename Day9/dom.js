@@ -55,7 +55,7 @@ second.removeChild(second.children[2])
 // handing Events
 button.addEventListener("click",addListItem)
 
-function addListItem(){
+function addListItem(){ 
     const newListItem = document.createElement('li');
     newListItem.textContent = "Another task";
 
