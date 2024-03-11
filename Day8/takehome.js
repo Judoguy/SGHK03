@@ -1,6 +1,7 @@
 const square = (num) => num * num;
-
 console.log(square(5));
+
+
 let name= "Jim";
 let age= 35;
 
